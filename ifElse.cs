@@ -11,8 +11,11 @@ public class HelloWorld
        if(age >= 18){
            Console.WriteLine("Voting allowed");
        }
+       else if(age<0){
+           Console.WriteLine("You're not born yet");
+       }
        else{
-           Console.WriteLine("Voting not allowed");
+           Console.WriteLine("not allowed");
        }
        
     }
